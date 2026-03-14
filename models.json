@@ -1,0 +1,49 @@
+{
+  "models": [
+    {
+      "name": "gpt-4o",
+      "provider": "openai",
+      "priority": 1,
+      "enabled": true,
+      "cost_per_1k_input_tokens": 0.005,
+      "cost_per_1k_output_tokens": 0.015,
+      "description": "OpenAI GPT-4o — high capability, multimodal"
+    },
+    {
+      "name": "gpt-4o-mini",
+      "provider": "openai",
+      "priority": 2,
+      "enabled": true,
+      "cost_per_1k_input_tokens": 0.00015,
+      "cost_per_1k_output_tokens": 0.0006,
+      "description": "OpenAI GPT-4o Mini — fast, cost-efficient"
+    },
+    {
+      "name": "claude-3-5-sonnet",
+      "provider": "anthropic",
+      "priority": 3,
+      "enabled": true,
+      "cost_per_1k_input_tokens": 0.003,
+      "cost_per_1k_output_tokens": 0.015,
+      "description": "Anthropic Claude 3.5 Sonnet — strong reasoning"
+    },
+    {
+      "name": "claude-3-haiku",
+      "provider": "anthropic",
+      "priority": 4,
+      "enabled": true,
+      "cost_per_1k_input_tokens": 0.00025,
+      "cost_per_1k_output_tokens": 0.00125,
+      "description": "Anthropic Claude 3 Haiku — lightweight fallback"
+    },
+    {
+      "name": "gemini-1.5-pro",
+      "provider": "google",
+      "priority": 5,
+      "enabled": false,
+      "cost_per_1k_input_tokens": 0.0035,
+      "cost_per_1k_output_tokens": 0.0105,
+      "description": "Google Gemini 1.5 Pro — disabled until integration is ready"
+    }
+  ]
+}
